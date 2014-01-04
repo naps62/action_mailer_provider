@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["mpalhas@gmail.com"]
   spec.description   = %q{Action Mailer configuration helper}
   spec.summary       = %q{Configure Action Mailer gem according to your email provider specs (Google, Zoho Mail, etc)}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/naps62/action_mailer_provider"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
