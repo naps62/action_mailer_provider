@@ -1,0 +1,18 @@
+ActionMailerProvider.configure do |config|
+  # Set your provider here
+  # accepted options:
+  #   :zoho
+  #   :gmail
+  #   nil (to disable the gem)
+  config.provider = <%= @provider %>
+
+  # Your email domain
+  config.domain = <%= @domain %>
+
+  # set the default email account used by action mailer
+  # must belong to the selected provider
+  config.default_email = <%= @email %>
+
+  # password of the email account defined above
+  config.default_email_password = <%= @password %>
+end
